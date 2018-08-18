@@ -62,7 +62,8 @@ _testmain.go
 
 **/.idea/workspace.xml
 
-
+.vscode
+.vscode/launch.json
 
 # mac hidden files
 
