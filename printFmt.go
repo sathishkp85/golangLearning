@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+import "github.com/golangLearning/myUtils"
 
 func main() {
 	fmt.Println("Hello go")
@@ -14,4 +15,6 @@ func main() {
 	for i := 2949; i < 2999; i++ {
 		fmt.Printf("%d, %b, %o, %#x, %#q \n", i, i, i, i, i)
 	}
+
+	myUtils.PrintAscii()
 }
