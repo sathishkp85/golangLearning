@@ -15,6 +15,8 @@ func main() {
 		v4 = 1.9
 	)
 
+	const MSG = "Welocme to the world of Go."
+	fmt.Println(MSG)
 	var testStr string
 	fmt.Scanf("%s", &testStr)
 	//testStr = "Hi There"
